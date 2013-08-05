@@ -323,9 +323,12 @@
 NSString * tb_descriptionForClassName(NSString *className)
 {
     Class cls = NSClassFromString(className);
+    Class superCls = [cls superclass];
+    NSString *superClassName = NSStringFromClass(superCls);
     NSMutableArray *desc_arr = [@[] mutableCopy];
     [desc_arr addObjectsFromArray:@[@"--description--\n",
-                                    @"class:\n\t", className, @"\n"]];
+                                    @"class:\n\t", className, @"\n\n",
+                                    @"superclass:\n\t", superClassName, @"\n"]];
     [desc_arr addObject:@"\n"];
 
     [desc_arr addObject:@"ivars:\n"];
