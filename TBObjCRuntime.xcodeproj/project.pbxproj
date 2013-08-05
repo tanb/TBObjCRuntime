@@ -10,13 +10,13 @@
 		A719CEF517ACF0B800098A14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A719CEF417ACF0B800098A14 /* UIKit.framework */; };
 		A719CEF717ACF0B800098A14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A719CEF617ACF0B800098A14 /* Foundation.framework */; };
 		A719CEF917ACF0B800098A14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A719CEF817ACF0B800098A14 /* CoreGraphics.framework */; };
-		A719CEFF17ACF0B800098A14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A719CEFD17ACF0B800098A14 /* InfoPlist.strings */; };
-		A719CF0117ACF0B800098A14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CF0017ACF0B800098A14 /* main.m */; };
-		A719CF0517ACF0B800098A14 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CF0417ACF0B800098A14 /* TBAppDelegate.m */; };
-		A719CF0717ACF0B800098A14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A719CF0617ACF0B800098A14 /* Default.png */; };
-		A719CF0917ACF0B800098A14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A719CF0817ACF0B800098A14 /* Default@2x.png */; };
-		A719CF0B17ACF0B800098A14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A719CF0A17ACF0B800098A14 /* Default-568h@2x.png */; };
-		A719CF1417ACF0E400098A14 /* TBObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A719CF1317ACF0E400098A14 /* TBObjCRuntime.m */; };
+		A7B5822F17AFAC730067C3D9 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5822E17AFAC730067C3D9 /* TBAppDelegate.m */; };
+		A7B5823517AFACAA0067C3D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A7B5823317AFACAA0067C3D9 /* InfoPlist.strings */; };
+		A7B5823717AFACB10067C3D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5823617AFACB10067C3D9 /* main.m */; };
+		A7B5823B17AFACBB0067C3D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B5823817AFACBB0067C3D9 /* Default-568h@2x.png */; };
+		A7B5823C17AFACBB0067C3D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B5823917AFACBB0067C3D9 /* Default.png */; };
+		A7B5823D17AFACBB0067C3D9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7B5823A17AFACBB0067C3D9 /* Default@2x.png */; };
+		A7B5824017AFACDE0067C3D9 /* TBObjCRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B5823F17AFACDE0067C3D9 /* TBObjCRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,17 +24,17 @@
 		A719CEF417ACF0B800098A14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A719CEF617ACF0B800098A14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A719CEF817ACF0B800098A14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A719CEFC17ACF0B800098A14 /* TBObjCRuntime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBObjCRuntime-Info.plist"; sourceTree = "<group>"; };
-		A719CEFE17ACF0B800098A14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A719CF0017ACF0B800098A14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A719CF0217ACF0B800098A14 /* TBObjCRuntime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBObjCRuntime-Prefix.pch"; sourceTree = "<group>"; };
-		A719CF0317ACF0B800098A14 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
-		A719CF0417ACF0B800098A14 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
-		A719CF0617ACF0B800098A14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A719CF0817ACF0B800098A14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		A719CF0A17ACF0B800098A14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A719CF1217ACF0E400098A14 /* TBObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBObjCRuntime.h; path = TBObjCRuntime/TBObjCRuntime.h; sourceTree = "<group>"; };
-		A719CF1317ACF0E400098A14 /* TBObjCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBObjCRuntime.m; path = TBObjCRuntime/TBObjCRuntime.m; sourceTree = "<group>"; };
+		A7B5822D17AFAC730067C3D9 /* TBAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TBAppDelegate.h; path = SampleProject/TBAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		A7B5822E17AFAC730067C3D9 /* TBAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TBAppDelegate.m; path = SampleProject/TBAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		A7B5823017AFAC820067C3D9 /* TBObjCRuntime-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TBObjCRuntime-Info.plist"; path = "SampleProject/TBObjCRuntime-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A7B5823117AFAC820067C3D9 /* TBObjCRuntime-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TBObjCRuntime-Prefix.pch"; path = "SampleProject/TBObjCRuntime-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A7B5823417AFACAA0067C3D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = SampleProject/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		A7B5823617AFACB10067C3D9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SampleProject/main.m; sourceTree = SOURCE_ROOT; };
+		A7B5823817AFACBB0067C3D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "SampleProject/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		A7B5823917AFACBB0067C3D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = SampleProject/Default.png; sourceTree = SOURCE_ROOT; };
+		A7B5823A17AFACBB0067C3D9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "SampleProject/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		A7B5823E17AFACDE0067C3D9 /* TBObjCRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBObjCRuntime.h; sourceTree = "<group>"; };
+		A7B5823F17AFACDE0067C3D9 /* TBObjCRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBObjCRuntime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				A719CF1117ACF0C400098A14 /* TBObjCRuntime */,
-				A719CEFA17ACF0B800098A14 /* TBObjCRuntime */,
+				A719CEFA17ACF0B800098A14 /* SampleProject */,
 				A719CEF317ACF0B800098A14 /* Frameworks */,
 				A719CEF217ACF0B800098A14 /* Products */,
 			);
@@ -79,26 +79,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A719CEFA17ACF0B800098A14 /* TBObjCRuntime */ = {
+		A719CEFA17ACF0B800098A14 /* SampleProject */ = {
 			isa = PBXGroup;
 			children = (
-				A719CF0317ACF0B800098A14 /* TBAppDelegate.h */,
-				A719CF0417ACF0B800098A14 /* TBAppDelegate.m */,
+				A7B5822D17AFAC730067C3D9 /* TBAppDelegate.h */,
+				A7B5822E17AFAC730067C3D9 /* TBAppDelegate.m */,
 				A719CEFB17ACF0B800098A14 /* Supporting Files */,
 			);
+			name = SampleProject;
 			path = TBObjCRuntime;
 			sourceTree = "<group>";
 		};
 		A719CEFB17ACF0B800098A14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A719CEFC17ACF0B800098A14 /* TBObjCRuntime-Info.plist */,
-				A719CEFD17ACF0B800098A14 /* InfoPlist.strings */,
-				A719CF0017ACF0B800098A14 /* main.m */,
-				A719CF0217ACF0B800098A14 /* TBObjCRuntime-Prefix.pch */,
-				A719CF0617ACF0B800098A14 /* Default.png */,
-				A719CF0817ACF0B800098A14 /* Default@2x.png */,
-				A719CF0A17ACF0B800098A14 /* Default-568h@2x.png */,
+				A7B5823017AFAC820067C3D9 /* TBObjCRuntime-Info.plist */,
+				A7B5823117AFAC820067C3D9 /* TBObjCRuntime-Prefix.pch */,
+				A7B5823617AFACB10067C3D9 /* main.m */,
+				A7B5823317AFACAA0067C3D9 /* InfoPlist.strings */,
+				A7B5823817AFACBB0067C3D9 /* Default-568h@2x.png */,
+				A7B5823917AFACBB0067C3D9 /* Default.png */,
+				A7B5823A17AFACBB0067C3D9 /* Default@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,8 +107,8 @@
 		A719CF1117ACF0C400098A14 /* TBObjCRuntime */ = {
 			isa = PBXGroup;
 			children = (
-				A719CF1217ACF0E400098A14 /* TBObjCRuntime.h */,
-				A719CF1317ACF0E400098A14 /* TBObjCRuntime.m */,
+				A7B5823E17AFACDE0067C3D9 /* TBObjCRuntime.h */,
+				A7B5823F17AFACDE0067C3D9 /* TBObjCRuntime.m */,
 			);
 			path = TBObjCRuntime;
 			sourceTree = "<group>";
@@ -164,10 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A719CEFF17ACF0B800098A14 /* InfoPlist.strings in Resources */,
-				A719CF0717ACF0B800098A14 /* Default.png in Resources */,
-				A719CF0917ACF0B800098A14 /* Default@2x.png in Resources */,
-				A719CF0B17ACF0B800098A14 /* Default-568h@2x.png in Resources */,
+				A7B5823517AFACAA0067C3D9 /* InfoPlist.strings in Resources */,
+				A7B5823B17AFACBB0067C3D9 /* Default-568h@2x.png in Resources */,
+				A7B5823C17AFACBB0067C3D9 /* Default.png in Resources */,
+				A7B5823D17AFACBB0067C3D9 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,19 +179,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A719CF0117ACF0B800098A14 /* main.m in Sources */,
-				A719CF0517ACF0B800098A14 /* TBAppDelegate.m in Sources */,
-				A719CF1417ACF0E400098A14 /* TBObjCRuntime.m in Sources */,
+				A7B5822F17AFAC730067C3D9 /* TBAppDelegate.m in Sources */,
+				A7B5823717AFACB10067C3D9 /* main.m in Sources */,
+				A7B5824017AFACDE0067C3D9 /* TBObjCRuntime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A719CEFD17ACF0B800098A14 /* InfoPlist.strings */ = {
+		A7B5823317AFACAA0067C3D9 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A719CEFE17ACF0B800098A14 /* en */,
+				A7B5823417AFACAA0067C3D9 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -258,8 +259,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TBObjCRuntime/TBObjCRuntime-Prefix.pch";
-				INFOPLIST_FILE = "TBObjCRuntime/TBObjCRuntime-Info.plist";
+				GCC_PREFIX_HEADER = "SampleProject/TBObjCRuntime-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject/TBObjCRuntime-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -269,8 +270,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TBObjCRuntime/TBObjCRuntime-Prefix.pch";
-				INFOPLIST_FILE = "TBObjCRuntime/TBObjCRuntime-Info.plist";
+				GCC_PREFIX_HEADER = "SampleProject/TBObjCRuntime-Prefix.pch";
+				INFOPLIST_FILE = "SampleProject/TBObjCRuntime-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -295,6 +296,7 @@
 				A719CF1017ACF0B800098A14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
